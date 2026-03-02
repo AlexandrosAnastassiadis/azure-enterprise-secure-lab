@@ -54,10 +54,6 @@ Inbound rules configured:
 - Internal HTTP allowed  
 - Default Deny All Inbound  
 
-Example:
-
-![NSG Rules](screenshots/phase1-networking/phase1-nsg-inbound-rules.png)
-
 ---
 
 # Phase 2 – Identity & Governance
@@ -98,10 +94,6 @@ A hardened Linux VM was deployed with:
 - No public inbound ports  
 - Encrypted OS disk (SSE with PMK)  
 - Deployed within segmented subnet  
-
-Example:
-
-![VM Overview](screenshots/phase3-secure-vm/phase3-vm-overview.png)
 
 ---
 
